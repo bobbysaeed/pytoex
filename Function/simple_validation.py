@@ -30,11 +30,3 @@ def check_validation(info_dict):
         else:
             users.append(key)
     return users
-
-check_validation({
-    'mahtab': "1235678",
-    'Ali': "He3@lsa",
-    'Amir': "kLS45@l$",
-    'Sina': 'Pass',
-    'Hamid': '1458jE',
-})
